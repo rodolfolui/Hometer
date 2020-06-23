@@ -21,7 +21,6 @@ Measurement of carbon footprint in homes and calculating in a reliable way in a 
 1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
-1. [Acknowledgments](#acknowledgments)
 
 ## Short description
 
@@ -155,7 +154,3 @@ See also the list of [contributors](https://github.com/rodolfolui/Hometer/graphs
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-* Based on [Rodolfo Vasquez's README template](https://github.com/rodolfolui/acknowledgements).
