@@ -45,12 +45,14 @@ The IoT devices used at home or work need to be non intrusive and cost efficient
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Video transcription/translation app](https://github.com/rodolfolui/Hometer/blob/master/docs/img/IoT-Blockchain.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. The device collects consumption info and reports to the IoT network
+2. The user can connect to the device by WiFi to get information about configuration and mettering on real time
+3. The NodeRed App collects multiple device information and correlates the location of the device to determine the calculation for carbon footprint
+4. The user connect to NodeRed dashboard to view historical data consumption and hours of consumption, useful in determining the time of the day and the consumptions in the day.
+5. The calculated consumption is sent to hyperledger to create a carbon footprint record for person ledger
+6. Peer uses an “endorsement” service to simulate the proposed transaction against the relevant smart contracts. This service confirms that the transaction is possible, given the current state of the ledger. Examples of invalid proposals might be creating an asset that already exists, querying the state of an asset that does not exist, etc.
 
 ## Long description
 
