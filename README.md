@@ -2,9 +2,9 @@
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
 
-Proyecto para la medición en todos los hogares de la huella de carbono y su registro en un repositorio distribuido blockchain.
+Measurement of carbon footprint in homes and calculating in a reliable way in a distributed blockchain.  The variables to measure includes but not limited to energy, water consumption, CO/CO2.
 
-*Read this in other languages: [English](README.md), [español](README.es_co.md).*
+*Read this in other languages: [English](README.md), [Español](README.es_co.md).*
 
 ## Contents
 
@@ -27,15 +27,17 @@ Proyecto para la medición en todos los hogares de la huella de carbono y su reg
 
 ### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time,  keeping them engaged, entertained, and on top of their education is important.
+The calculation of carbon footprint is not the same for all the locations and human activities, it depends on how the energy or water is produced (is different for example for hydraulic than gas generators), and could be subject to human intervention.
+
+We considered the measurement should be obtained by home automation and the carbon footprint must be calculated taking into account the aspects related with the conditions used to do this calculation.  All the aspects considered need to be validated by the participants and registered in a blockchain in order to have a realistic and reliable carbon 
 
 ### How can technology help?
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+The IoT devices to be used at home need to provide some aditional value than being only sensors, and be able to read and send the data in an automated way.
 
 ### The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+The IoT devices used at home or work need to be non intrusive and cost efficient, the data collected by the devices need to be integrated with calculations depending on the location of the sensor and all the calculation need to count for the home of office account owner; so we have several actors updating the ledger for carbon footprint.  The hometer network provides all of this capabilities.
 
 ## Demo video
 
@@ -121,16 +123,13 @@ npx eslint sample-file.js
 
 ## Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+You can find a running system to test at [colnodered.mybluemix.net/](http://colnodered.mybluemix.net/) with user and password admin 
 
 ## Built with
 
 * [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [NodeRed running on IBM CloudFoundry](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
+* [IBM Internet of Things Platform](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
 
 ## Contributing
 
@@ -138,13 +137,14 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/rodolfolui/Hometer/tags).
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Rodolfo L. Vasquez** - *Initial work* - [PurpleBooth](https://github.com/rodolfolui)
+* **Daniel Lema** - *Initial work* - [PurpleBooth](https://github.com/rodolfolui)
 
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/rodolfolui/Hometer/graphs/contributors) who participated in this project.
 
 ## License
 
@@ -152,4 +152,4 @@ This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE)
 
 ## Acknowledgments
 
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+* Based on [Rodolfo Vasquez's README template](https://github.com/rodolfolui/acknowledgements).
