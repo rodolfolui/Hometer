@@ -130,9 +130,9 @@ You can find a running system to test at [colnodered.mybluemix.net/](http://coln
 ## Built with
 
 * [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [NodeRed running on IBM CloudFoundry](https://cloud.ibm.com/catalog?search=nodered#search_results) - The compute platform for handing cloud app logic
+* [NodeRed running on IBM CloudFoundry](https://cloud.ibm.com/catalog?search=%22node-red%20app%22#search_results) - The compute platform for handing cloud app logic
 * [IBM Internet of Things Platform](https://cloud.ibm.com/catalog?search=internet%20of%20things%20platform#search_results) - The IBM Cloud service to manage the devices network
-* [Node-RED Blockchain](https://github.com/johnwalicki/Node-RED-Storm-BlockChain-Demo)
+* [Node-RED Blockchain](https://github.com/johnwalicki/Node-RED-Storm-BlockChain-Demo) - Base code to build Blockchain App and guide to use the APIs
 
 ## Contributing
 
