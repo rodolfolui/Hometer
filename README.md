@@ -60,7 +60,7 @@ The IoT devices used at home or work need to be non intrusive and cost efficient
 
 ## Project roadmap
 
-![Roadmap](roadmap.jpg)
+![Roadmap](https://github.com/rodolfolui/Hometer/blob/master/docs/img/Roadmap.png)
 
 ## Getting started
 
@@ -143,8 +143,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Rodolfo L. Vasquez** - *Initial work* - [PurpleBooth](https://github.com/rodolfolui)
-* **Daniel Lema** - *Initial work* - [PurpleBooth](https://github.com/rodolfolui)
+* **Rodolfo L. Vasquez** 
+* **Daniel Lema** 
 
 See also the list of [contributors](https://github.com/rodolfolui/Hometer/graphs/contributors) who participated in this project.
 
