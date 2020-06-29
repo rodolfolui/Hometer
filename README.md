@@ -91,7 +91,7 @@ For testing you can configure mqtt.eclipse.org collecting network.  This needs t
 
 ## Live demo
 
-You can find a running system to test at [colnodered.mybluemix.net/](http://colnodered.mybluemix.net/) with user and password admin 
+You can find a running system to test at [colnodered.mybluemix.net/](https://colnodered.mybluemix.net/ui/#!/0?socketid=rv4BF-HOIjVJpFotAAA7) with user and password admin 
 
 ## Built with
 
