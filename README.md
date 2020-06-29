@@ -40,7 +40,7 @@ The IoT devices used at home or work need to be non intrusive and cost efficient
 
 ## Demo video
 
-[![Watch the video](https://github.com/rodolfolui/Hometer/blob/master/docs/img/TeamHometer.png)](https://youtu.be/bvtpho8eXXY)
+[![Watch the video]](https://youtu.be/bvtpho8eXXY)
 
 ## The architecture
 
@@ -75,14 +75,14 @@ For the code of the device you need to install Arduino software (https://www.ard
 
 For IBM Cloud is necessary to provision IBM Internet of Things to gather info from more than a couple devices and Node-Red starter app.  For local development you can install node.js and node-red using
 
-```bash
+bash
 dnf install nodejs
 npm install nodered
 
 And for start node-red instance simply
 
-```bash
-node-red```
+bash
+node-red
 
 ## Running the tests
 
