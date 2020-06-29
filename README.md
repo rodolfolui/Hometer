@@ -55,7 +55,7 @@ The IoT devices used at home or work need to be non intrusive and cost efficient
 
 ## Long description
 
-[More detail is available here](docs/index.html)
+[More detail is available here](https://github.com/rodolfolui/Hometer/blob/master/docs/ClimateChange.pdf)
 
 ## Project roadmap
 
