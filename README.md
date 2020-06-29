@@ -67,60 +67,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+For the code of the device you need to install Arduino software (https://www.arduino.cc/en/main/software) and add the necessary modules to work with nodemcu which are the following libraries:
 
-```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
-```
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be, for example
+For IBM Cloud is necessary to provision IBM Internet of Things to gather info from more than a couple devices and Node-Red starter app.  For local development you can install node.js and node-red using
 
 ```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
-```
+dnf install nodejs
+npm install nodered
 
-And repeat
+And for start node-red instance simply
 
 ```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+node-red```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+For testing you can configure mqtt.eclipse.org collecting network.  This needs to be modified in watsoniot.h file in arduino code and in MQTT IN node in node red to be referenced in both.  Also we used a device simulator also available in node-red to simulate the device input.
 
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instance
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
 
 ## Live demo
 
@@ -143,11 +110,8 @@ We use [GitHub](http://github.com/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Alba Albarracin** 
 * **Daniel Lema** 
-* **Ivan Vasquez** 
 * **Rodolfo Vasquez** 
-
 
 See also the list of [contributors](https://github.com/rodolfolui/Hometer/graphs/contributors) who participated in this project.
 
