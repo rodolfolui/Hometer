@@ -40,7 +40,7 @@ The IoT devices used at home or work need to be non intrusive and cost efficient
 
 ## Demo video
 
-[![Watch the video]](https://youtu.be/bvtpho8eXXY)
+[![Watch the video](docs/img/Hometer.png)](https://youtu.be/bvtpho8eXXY)
 
 ## The architecture
 
@@ -55,7 +55,7 @@ The IoT devices used at home or work need to be non intrusive and cost efficient
 
 ## Long description
 
-[More detail is available here](DESCRIPTION.md)
+[More detail is available here](docs/index.html)
 
 ## Project roadmap
 
